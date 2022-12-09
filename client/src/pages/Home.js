@@ -19,7 +19,7 @@ function Home() {
     <>
     <Grid columns={3}>
       <Grid.Row className="page-title">
-        <h1>Eventi<span>fy</span></h1>
+        <a href='/'><h1>Eventi<span>fy</span></h1></a>
       </Grid.Row>
       <Grid.Row>
         {user && (
