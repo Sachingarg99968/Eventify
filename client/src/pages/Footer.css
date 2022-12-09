@@ -1,0 +1,20 @@
+.footer-basic {
+    padding: 0;
+    background-color: antiquewhite;
+    background-color:#ffffff;
+    color:#4b4c4d;
+  }
+  
+  .footer-basic p{
+    font-size: 20px;
+    background-color: antiquewhite;
+    padding-bottom: 40px;
+    padding-top: 50px;
+    text-align: center;
+    color: #4b4c4d;
+    font-weight: bold;
+    
+  }
+  .footer-basic p span{
+    color: blue;
+}

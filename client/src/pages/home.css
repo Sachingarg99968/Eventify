@@ -1,0 +1,16 @@
+:root{
+    background-color: antiquewhite;
+}
+body{
+    background-color: antiquewhite;
+}
+
+.page-title h1{
+    color:  #F333FF;
+
+}
+
+.page-title h1>span{ 
+    color: #33FFE3;
+
+}
