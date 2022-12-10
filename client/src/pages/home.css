@@ -1,16 +1,11 @@
-:root{
-    background-color: antiquewhite;
-}
-body{
-    background-color: antiquewhite;
-}
-
-.page-title h1{
-    color:  #F333FF;
-
+.page-title h1 {
+  color: #5c00ef;
+  display: flex;
+  font-family: fangsong;
+  justify-content: center;
+  font-size: 40px;
 }
 
-.page-title h1>span{ 
-    color: #33FFE3;
-
+.page-title h1 > span {
+  color: #080808;
 }
