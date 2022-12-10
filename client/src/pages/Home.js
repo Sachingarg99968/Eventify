@@ -18,7 +18,7 @@ function Home() {
   return (
     <>
     <Grid columns={3}>
-      <Grid.Row className="page-title">
+      <Grid.Row className="page-title" style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
         <a href='/'><h1>Eventi<span>fy</span></h1></a>
       </Grid.Row>
       <Grid.Row>
@@ -30,7 +30,7 @@ function Home() {
         {loading ? (
           <h1>Loading events!!</h1>
         ) : (
-          <Transition.Group>
+          <Transition.Group >
             {posts &&
               posts.map((post) => (
                 <Grid.Column key={post.id} style={{ marginBottom: 20 }}>

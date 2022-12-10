@@ -1,32 +1,36 @@
 body {
-    background-image: url('https://c0.wallpaperflare.com/preview/325/781/108/events-venue-banquet-hall.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  height: 100%;
+  background: url("https://c0.wallpaperflare.com/preview/325/781/108/events-venue-banquet-hall.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
 .back {
-    height: 400px;
-    width: 600px;
-    background-color: white;
-    opacity: 0.7;
-    border-radius: 10px;
-    position: absolute;
-    margin-top: 5rem;
-    margin-left: 20rem;
+  height: 400px;
+  width: 600px;
+  background-color: white;
+  opacity: 0.7;
+  border-radius: 10px;
+  position: absolute;
+  margin-top: 5rem;
+  margin-left: 20rem;
 }
-.back h1{
-    text-align: center;
-    margin-top: 30px;
-    font-size: 40px;
-    font-weight: bold;
+.back h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 40px;
+  font-weight: bold;
 }
-.back p{
-    margin: 10px 30px 10px 30px;
-    font-size: 18px;
-    text-align: justify;
+.back p {
+  margin: 10px 30px 10px 30px;
+  font-size: 18px;
+  text-align: justify;
 }
-.footer{
-    font-size: 20px;
-    margin-top: 43rem;
-    color: rgb(56, 56, 56);
+.footer {
+  font-size: 20px;
+  margin-top: 43rem;
+  color: rgb(56, 56, 56);
 }
